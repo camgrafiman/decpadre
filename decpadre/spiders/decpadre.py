@@ -24,8 +24,8 @@ class Producto(Item):
     review = Field(output_processor=TakeFirst())
 
 
-class decpadre(Spider):
-    name = "decpadre"
+class decathlonpadre(Spider):
+    name = "decathlonpadre"
     #grupoProductos = '?Ndrc=2'
     start_urls = [
         'https://www.decathlon.es/es/browse/c0-hombre/c1-regalos-para-hombre/_/N-9cqwoa'
